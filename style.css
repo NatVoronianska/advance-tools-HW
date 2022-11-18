@@ -71,6 +71,9 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-/*@media-query(max-width:576px){
-
-}*/
+@media (max-width: 576px) {
+  .responsive-btn {
+    width: 100%;
+  }
+ 
+}
