@@ -5,8 +5,8 @@
 }
 body{
   background-image: url("/images/1.png"), linear-gradient( #e6b980 0%, #efdfd0 100%);
-  background-repeat: no-repeat ;
-  background-size: 100%;
+  background-repeat:repeat-y ;
+  background-size:contain;
 }
 h1,
 h2,
