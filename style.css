@@ -1,6 +1,6 @@
 :root {
   --primary-color: hsla(163, 86%, 8%, 0.988);
-  --secondary-color: #f5f2fe;
+  --secondary-color: #F2B442;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body{
@@ -15,28 +15,24 @@ h3 {
   font-weight: bold;
   text-align: center;
   margin: 0;
-  color: var(--secondary-color);
+  
 }
 
 h1 {
   font-size: 120px;
-  color: rgb(17, 98, 17);
+  color:#4F874E;
 }
 
 h2 {
   margin-top: 30px;
-  font-size: 48px;
+  font-size: 68px;
+  color: var(--secondary-color);
 }
 
 h3 {
-  font-size: 24px;
-  
+  font-size: 24px;  
+}
+button{
+  color: var(--primary-color);
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-.car-color{
-  color: rgb(17, 98, 17);
-}
